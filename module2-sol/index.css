@@ -7,51 +7,71 @@ h1{
     font-size: 28;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
-    margin-top: 0px;
-    margin-bottom: 40px;
+    margin-top: 20px;
+    margin-bottom: 70px;
 }
 
 
 section{
-    
-    min-height: 100px;
+    min-height: 180px;
     padding: 10px;
-    margin: 10px;
+    width: 100%;
     border: black;
     position: relative;
     background-color:grey;
-    clear: right;
+    border: black solid 4px;
+    margin-bottom: 5px;
 }
 
 h2{
-    position: relative;
-    right: 0px;
-}
+    font-size: 20px;
+    position: absolute;
+    right: 8px;
+    top: 0px;
+    margin: 4px;
+    padding: 3px;
+    border: black solid 1px;  
 
-#span1{
-    color: red;
-    background-color: blue;
-    float:right;
-    margin: 5px;
-    margin-bottom: 10px;
 }
-#span2{
-    color: blue;
-}
-#span3{
-    color: green;
-}
-#section1{
-    background-color: royalblue;
-    width: 30%;
-    
-}
-#section2{
+#h2-1{
     background-color: red;
-    width: 30%;
+
+}
+#h2-2{
+    background-color: blue;
+}
+#h2-3{
+    background-color: green;
+}
+p{
+    position: relative;
+    left :10px;
+    top: 20px;
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#section3{
-    background-color: green;
-    width: 30%;
+
+@media (min-width: 768px) and (max-width: 991px){
+    .sec-md-1, .sec-md-2{
+        float: left;
+    }
+    .sec-md-1{
+        width:100%;
+        margin-top: 5px;
+    }
+    .sec-md-2{
+        width: 49%;
+        margin: 2px;
+    }
+}
+@media (min-width: 992px){
+    .sec-lg-3{
+        width: 33%;
+        float: left;
+        height: 300px;
+        text-align: center;
+        margin: 1px;
+    }
 }
