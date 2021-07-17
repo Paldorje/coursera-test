@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    font-family: cursive;
+}
+h1{
+    color: rgb(31, 13, 8);
+    font-size: 28;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+div{
+    background-color:grey;
+    height: 500px;
+}
+
+section{
+    float:left;
+    min-height: 100px;
+    padding: 10px;
+    margin: 10px;
+    text-align: top right;
+}
+#section1{
+    background-color: royalblue;
+    width: 30%;
+    
+}
+#section2{
+    background-color: red;
+    width: 30%;
+}
+
+#section3{
+    background-color: green;
+    width: 30%;
+}
