@@ -23,7 +23,6 @@ a.navbar-brand{
     font-size: 1.2em;
 }
 
-
 h1{
     color: rgb(31, 13, 8);
     font-size: 28;
@@ -42,7 +41,7 @@ p > a{
 }
 
 .row > div{
-    background-color: grey;
+    background-color: rgb(203, 221, 124);
     padding: 2px;
     border: black solid 2px;
     margin-bottom: 10px;
