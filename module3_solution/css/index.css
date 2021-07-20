@@ -21,8 +21,6 @@ a.navbar-brand{
     font-size: 1.2em;
 }
 
-
-
 h1{
     color: rgb(31, 13, 8);
     font-size: 28;
@@ -93,6 +91,10 @@ p{
         visibility: hidden;
 
     }
+    a.navbar-brand{
+        margin-left: 70px;
+        font-size: 1.7em;
+    }
 }
 @media (min-width: 992px){
     .sec-lg-3{
@@ -102,7 +104,11 @@ p{
         text-align: center;
         margin: 1px;
     }
-
+    
+    a.navbar-brand{
+        margin-left: 80px;
+        font-size: 1.9em;
+    }
     .navbar-nav{
         visibility: hidden;
         
