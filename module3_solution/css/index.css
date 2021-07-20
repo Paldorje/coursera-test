@@ -27,7 +27,6 @@ h1{
     color: rgb(31, 13, 8);
     font-size: 28;
     font-family: 'Times New Roman', Times, serif;
-    margin-top: 25px;
     margin-bottom: 20px;
 }
 
@@ -41,7 +40,7 @@ p > a{
 }
 
 .row > div{
-    background-color: rgb(203, 221, 124);
+    background-color: rgb(201, 196, 125);
     padding: 2px;
     border: black solid 2px;
     margin-bottom: 10px;
