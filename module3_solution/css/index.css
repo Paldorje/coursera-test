@@ -11,11 +11,10 @@ a.navbar-brand{
     font-size: 1.5em;
 }
 
-.navbar-collapse{
-    position: absolute;
-    right: 40px;
-
+.navbar-nav{
+    margin-left: 50px;
 }
+
 .nav-link{
     padding: 5px;
     margin-right: 70px;
@@ -74,9 +73,10 @@ p{
     margin: 6px auto 0 auto;
     
 }
-
-
+ 
 @media (min-width: 768px) and (max-width: 991px){
+    
+
     .sec-md-1, .sec-md-2{
         float: left;
     }
@@ -89,6 +89,10 @@ p{
         margin: 2px;
         margin-bottom: 10px;
     }
+    .navbar-nav{
+        visibility: hidden;
+
+    }
 }
 @media (min-width: 992px){
     .sec-lg-3{
@@ -97,5 +101,10 @@ p{
         height: auto;
         text-align: center;
         margin: 1px;
+    }
+
+    .navbar-nav{
+        visibility: hidden;
+        
     }
 }
