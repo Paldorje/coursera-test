@@ -23,72 +23,53 @@ a.navbar-brand{
     font-size: 1.2em;
 }
 
+
 h1{
     color: rgb(31, 13, 8);
     font-size: 28;
     font-family: 'Times New Roman', Times, serif;
-    text-align: center;
     margin-top: 25px;
     margin-bottom: 20px;
 }
 
-
-section{
-    min-height: 180px;
-    padding: 20px;
-    width: 100%;
-    border: black;
-    position: relative;
-    background-color:grey;
-    border: black solid 4px;
-    margin-bottom: 20px;
-}
-
 h2{
-    font-size: 20px;
-    position: absolute;
-    right: 8px;
-    top: 0px;
-    margin: 3px;
-    padding: 3px;
-    border: black solid 1px;  
-    
+    font-size: 23px;
+}
 
+p > a{
+    color: rgb(156, 45, 45);
+    font-size: .95em;
 }
-#h2-1{
-    background-color: rgb(247, 103, 103);
 
+.row > div{
+    background-color: grey;
+    padding: 2px;
+    border: black solid 2px;
+    margin-bottom: 10px;
 }
-#h2-2{
-    background-color: rgb(110, 110, 247);
-}
-#h2-3{
-    background-color: rgb(105, 243, 105);
-}
+
+
 p{
     position: relative;
-    left :10px;
-    top: 20px;
+    top: 0px;
     width:90%;
-    margin: 6px auto 0 auto;
+    margin: 0px auto 0 auto;
     
 }
  
 @media (min-width: 768px) and (max-width: 991px){
-    
-
-    .sec-md-1, .sec-md-2{
-        float: left;
+    .container{
+        max-width: 100%;
     }
-    .sec-md-1{
-        width:100%;
-        margin-top: 5px;
-    }
-    .sec-md-2{
+    .col-md-6{
         width: 49%;
         margin: 2px;
-        margin-bottom: 10px;
     }
+     .col-md-12{
+        width:100%;
+        margin-top: 5px;
+     }
+
     .navbar-nav{
         visibility: hidden;
 
@@ -98,15 +79,18 @@ p{
         font-size: 1.7em;
     }
 }
-@media (min-width: 992px){
-    .sec-lg-3{
+@media (min-width: 992px) {
+
+    .container{
+        max-width: 100%;
+    }
+    .col-lg-4{
         width: 33%;
         float: left;
         height: auto;
         text-align: center;
-        margin: 1px;
+        margin-left: 2px;
     }
-    
     a.navbar-brand{
         margin-left: 80px;
         font-size: 1.9em;
